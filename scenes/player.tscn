@@ -197,6 +197,9 @@ animations = [{
 [sub_resource type="CircleShape2D" id="CircleShape2D_3smsa"]
 radius = 5.0
 
+[sub_resource type="Animation" id="Animation_qlg0r"]
+length = 0.001
+
 [sub_resource type="Animation" id="Animation_dqkch"]
 resource_name = "death"
 tracks/0/type = "audio"
@@ -214,9 +217,6 @@ tracks/0/keys = {
 "times": PackedFloat32Array(0)
 }
 tracks/0/use_blend = true
-
-[sub_resource type="Animation" id="Animation_qlg0r"]
-length = 0.001
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_tuyoq"]
 _data = {
